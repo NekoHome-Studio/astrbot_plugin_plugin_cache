@@ -1,0 +1,35 @@
+{
+  "managed_plugins": {
+    "description": "受管插件：点“选择”从插件列表里勾选（可搜索、可全选 *）",
+    "type": "list",
+    "default": [],
+    "hint": "选择器只列出“当前已启用”的插件，所以休眠中的插件选不到，请写到下面一项；此处填 * 表示除本插件外的全部插件",
+    "_special": "select_plugin_set"
+  },
+  "managed_plugins_extra": {
+    "description": "补充受管插件（含描述与关键词）：每行一条，格式 插件名|一句话描述|关键词1,关键词2",
+    "type": "list",
+    "default": [],
+    "hint": "例：astrbot_plugin_qzone_publish|发QQ空间说说|说说,空间,发动态；休眠中的插件只能写这里，也可以给上面勾选的插件补描述与关键词"
+  },
+  "idle_minutes": {
+    "description": "空闲自动休眠时间（分钟），0 表示不自动休眠",
+    "type": "int",
+    "default": 30
+  },
+  "inject_catalog": {
+    "description": "把休眠插件的清单注入系统提示词，模型才知道可以按需唤醒",
+    "type": "bool",
+    "default": true
+  },
+  "enable_private": {
+    "description": "私聊是否启用二级缓存",
+    "type": "bool",
+    "default": true
+  },
+  "enabled_groups": {
+    "description": "启用二级缓存的群号白名单，留空表示全部群启用",
+    "type": "list",
+    "default": []
+  }
+}
