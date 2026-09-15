@@ -2,6 +2,10 @@
 
 ![logo](logo.png)
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![AstrBot](https://img.shields.io/badge/AstrBot-%3E%3Dv4.0.0-2ea44f)](https://github.com/Soulter/AstrBot)
+![GitHub stars](https://img.shields.io/github/stars/Fangnai-byte/astrbot_plugin_plugin_cache)
+
 不常用的插件常驻，会一直占用 LLM 的工具列表和系统提示词。这个插件把它们收进"二级缓存"：平时保持关闭，需要时唤醒，用完关掉。
 
 ## 工作方式
@@ -24,3 +28,7 @@
 - 唤醒发生在本次请求的工具列表已经确定之后，所以插件本体要**下一轮**才真正可用。模型会先给用户一句"稍等一下"，下一轮再调用它的工具。
 - 走的还是 AstrBot 自带的热重载开关，关闭时会把 handler 置为未激活并落盘，重启后仍是休眠状态。
 - 不要在受管列表里写自己（`astrbot_plugin_plugin_cache`）。
+
+## License
+
+MIT
