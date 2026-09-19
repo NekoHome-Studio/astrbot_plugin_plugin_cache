@@ -3,7 +3,7 @@ display_name: 插件二级缓存
 desc: 让不常用的插件按需唤醒、闲时休眠，省下提示词与工具列表空间
 version: v1.0.0
 author: 绫地宁宁 & Fangnai
-repo: https://github.com/Fangnai-byte/astrbot_plugin_plugin_cache
+repo: https://github.com/NekoHome-Studio/astrbot_plugin_plugin_cache
 support_platforms:
   - aiocqhttp
 astrbot_version: ">=4.0.0"

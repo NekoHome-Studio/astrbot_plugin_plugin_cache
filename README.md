@@ -4,7 +4,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![AstrBot](https://img.shields.io/badge/AstrBot-%3E%3Dv4.0.0-2ea44f)](https://github.com/Soulter/AstrBot)
-![GitHub stars](https://img.shields.io/github/stars/Fangnai-byte/astrbot_plugin_plugin_cache)
+![GitHub stars](https://img.shields.io/github/stars/NekoHome-Studio/astrbot_plugin_plugin_cache)
 
 不常用的插件常驻，会一直占用 LLM 的工具列表和系统提示词。这个插件把它们收进"二级缓存"：平时保持关闭，需要时唤醒，用完关掉。
 
